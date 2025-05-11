@@ -9,7 +9,9 @@ body, html{
     width: 100%;
     height: 100%;
     font-family: "Sofia Sans";
-    background-color: #FFFFFF;
+    background-color: #000;
+    color: white;
+    cursor: none;
 }
 
 main{
@@ -26,9 +28,9 @@ main{
     font-size: 64px;
 }
 .content span{
-    background-color: black;
+    background-color: white;
     padding: 0 5px 0 5px;
-    color: white;
+    color: black;
     font-size: 60px;
 }
 
@@ -37,3 +39,36 @@ footer{
     font-size: 14px;
     margin-right: 10px;
 }
+
+.cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      background: rgba(0, 255, 255, 0.7);
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      transition: transform 0.1s ease;
+      z-index: 9999;
+      mix-blend-mode: difference;
+}
+
+  .download-btn {
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .download-btn:hover {
+    transform: scale(1.01);
+    font-weight: bold;
+    cursor: none;
+  }
