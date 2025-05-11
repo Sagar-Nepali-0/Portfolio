@@ -32,6 +32,6 @@ To clone and work with this repository locally:
 
 ```
 git clone https://github.com/Sagar-Nepali-0/Portfolio.git
-cd Portfolio
+cd Sagar-Nepali-0
 ```
 
