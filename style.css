@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: "Sofia Sans";
+    background-color: #FFFFFF;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 64px;
+}
+.content span{
+    background-color: black;
+    padding: 0 5px 0 5px;
+    color: white;
+    font-size: 60px;
+}
+
+footer{
+    text-align: right;
+    font-size: 14px;
+    margin-right: 10px;
+}
