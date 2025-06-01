@@ -20,7 +20,7 @@ Here you'll find a mix of practice projects, coursework, and personal builds. Ea
 <ul>
 <li>Email: sagarnepali0960@gmail.com</li>
 <li>LinkedIn: https://www.linkedin.com/in/sagarnepali-dev/</li>
-<li>GitHub: https://github.com/Sagar-Nepali-0</li>
+<li>GitHub: https://github.com/nepalisagar</li>
 </ul>
 
 
@@ -31,7 +31,7 @@ All code and content in this repository are available under the MIT License unle
 To clone and work with this repository locally:
 
 ```
-git clone https://github.com/Sagar-Nepali-0/Portfolio.git
+git clone https://github.com/nepalisagar/Portfolio.git
 cd Sagar-Nepali-0
 ```
 
